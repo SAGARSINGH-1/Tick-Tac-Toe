@@ -102,12 +102,6 @@ export default function App() {
           theme: "light",
           });
       }
-      description = 'Go to move #' + move;
-      return (
-        <li key={move}>
-          <button className="my-1" onClick={() => jumpTo(move)}>{description}</button>
-        </li>
-      );
     } else {
       description = 'Restart game';
       return (
